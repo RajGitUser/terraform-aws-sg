@@ -1,17 +1,17 @@
 variable "sg_name" {
-    default = catalogue
+    type = string
 }
 
 variable "sg_description" {
-    default = "security group allowing all ports"
+    type = string
 }
 
 variable "project_name" {
-    default = roboshop
+    type = string
 }
 
 variable "environment" {
-    default = dev
+    type = string
 }
 
 variable "vpc_id" {
